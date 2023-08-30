@@ -142,6 +142,9 @@ gateway:
     # image pull policy for Tyk Gateway
     pullPolicy: IfNotPresent
 
+  scratch:
+    enabled: true
+
   service:
     # type of service
     type: NodePort
